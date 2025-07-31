@@ -6,6 +6,8 @@
     --red: #9b1f27;
     --b-green: #1B5467;
     --b-dark: #0D232E;
+    --b-white: #4FC3F7;
+    --bege: #CCCCCC;
 }
 
 
@@ -15,8 +17,6 @@
     border: 0;
     font-family: "Libertinus Sans", sans-serif;
     text-decoration: none;
-    text-transform: capitalize;
-    /*Todo texto começa com letras maiúsculas*/
     transition: 0.2s linear;
     color: white;
 }
@@ -66,7 +66,7 @@ header {
 }
 
 
-.container {
+.home-container {
     height: 100vh;
     background: url(img/main-header2.jpg);
     background-size: cover;
@@ -74,10 +74,8 @@ header {
     align-items: center;
     display: flex;
     background-position: center;
-
     margin-top: 5rem;
-
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: rgba(0, 0, 0, 0.685);
     background-blend-mode: overlay;
 }
 
@@ -112,10 +110,60 @@ header {
 
 .btn:hover {
     background-color: var(--b-dark);
-    font-size: 1.1rem;
+    letter-spacing: 0.1rem; /*Espaçamento entre as letras*/
 
 }
 
 #boton {
     text-align: center;
+}
+
+
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase; /*Deixa as letra em maiúsculas*/
+    margin-bottom: 2rem;
+    color: var(--bege);
+}
+
+.title span{
+    color: var(--b-white);
+    border-bottom: 1px solid var(--b-white);
+    padding-bottom: 0.1rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff09;
+    border-radius: 2%;
+}
+
+.about .row .content{
+    padding: 3rem;
+}
+
+.about .row .content p{
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.4;
+
+}
+
+.content  h3{ 
+    font-size: 2.5rem;
+    color:var(--bege)
+}
+
+
+.content h3 span{
+    color: var(--b-white)
+}
+
+.vdo{
+    width: 100%;
+    padding-left: 2rem;
 }
