@@ -13,6 +13,17 @@
 </head>
 
 <body>
+    <!-- 
+  Este projeto tem como objetivo criar um site simples que seja:
+  
+  1. Semântico: Utilizando as tags HTML corretas para estruturar o conteúdo,
+     facilitando a leitura por navegadores e mecanismos de busca.
+  
+  2. Visualmente bonito: Aplicando estilos modernos para que o site
+     tenha uma aparência bonita e harmoniosa combinando com à identidade da marca.
+  
+  Dessa forma, garanto que o site seja eficiente e ao mesmo tempo apresentavel para os visitantes, entregando uma boa experiência de navegação.
+-->
     <header class="hdr">
         <section>
             <a href="#" class="logo">
@@ -20,9 +31,8 @@
             </a>
             <nav class="navbar">
                 <a href="#">Home</a>
-                <a href="#">Galéria</a>
-                <a href="#">Sobre</a>
-                <a href="#">Endereço</a>
+                <a href="#galery">Galeria</a>
+                <a href="#about">Sobre</a>
             </nav>
         </section>
     </header>
@@ -31,13 +41,12 @@
             <section id="home">
                 <div class="content">
                     <h1>TOKI</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam necessitatibus aliquid adipisci illo
-                        quibusdam incidunt iusto distinctio similique, voluptatem numquam sed, velit, aperiam vel vero!
-                        Ducimus veniam deserunt odit quaerat! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Perferendis debitis, nostrum repudiandae tenetur doloribus quisquam blanditiis doloremque eum
-                        obcaecati, harum asperiores in. Dicta qui in illo animi nulla quia quos.</p>
+                    <p>Cada clique é um silêncio congelado, uma lembrança preservada, um detalhe que poderia passar
+                        despercebido. Não congelamos o tempo.
+                        Nós o escutamos.
+                        Cada imagem TOKI é um tempo em paz.</p>
                     <div id="boton">
-                        <a href="#" class="btn">Galeria</a>
+                        <a href="#galery" class="btn">Galeria</a>
                     </div>
                 </div>
             </section>
@@ -48,19 +57,76 @@
             <div class="row">
                 <div class="vdo">
                     <video width="600px" autoplay muted loop src="vdo/vdeo.mp4"></video>
-                    <!--   -->
+                    <!-- O vídeo ficará em loop e será exibido automaticamente-->
                 </div>
                 <div class="content">
                     <h3>O que nós faz <span>movimentar</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia odio sit nam officiis nihil fugit a culpa sint facilis? Eos reprehenderit tempore sed ex expedita, possimus accusamus ducimus eveniet fuga.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis porro facilis, beatae explicabo, eos molestiae minus excepturi sequi eligendi nostrum veritatis ipsum reprehenderit est officiis, suscipit deleniti corporis iusto?</p>
+                    <p>Somos apaixonados por capturar o instante antes que ele desapareça.
+                        Nossa fotografia nasce da calma, da estética e do respeito pelo tempo, valores que aprendemos
+                        com o Japão e traduzimos em cada imagem. Daí surge a marca TOKI, que significa "tempo" em
+                        japonês.
+                    </p>
+                    <p>Chamamos esse estilo de fotografia contemplativa, onde cada imagem carrega silêncio, profundidade
+                        e tempo. Buscamos a beleza nos detalhes sutis, na impermanência e na essência do momento. TOKI
+                        não é apenas uma marca, é uma forma de ver o mundo com mais presença e sensibilidade. Mais do
+                        que registrar momentos, buscamos revelar o que há de essencial neles.</p>
                 </div>
+            </div>
+        </section>
+
+        <!--Seção de galeria de fotos com efeito tipo sanfona usando listas-->
+        <section class="galery" id="galery">
+            <h2>GALERIA</h2>
+
+            <div class="sanfona">
+                <ul>
+                    <li>
+                        <div class="img_one">
+                            <a href="#"></a>
+                        </div>
+                        <a href="#">
+                            <img src="img/img3.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_one">
+                            <a href="#"></a>
+                        </div>
+                        <a href="#">
+                            <img src="img/img4.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="img_one">
+                            <a href="#"></a>
+                        </div>
+                        <a href="#">
+                            <img src="img/img1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="img_one">
+                            <a href="#"></a>
+                        </div>
+                        <a href="#">
+                            <img src="img/img2.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
 
             </div>
-            
+
 
         </section>
     </main>
+
+     <footer>
+            <p>Site criado com o intuito de exercitar boas práticas de semântica e estilos em CSS.</p>
+            <p>© 2025 Tainá Dias da Silva</p>
+        </footer>
+
 
 </body>
 
