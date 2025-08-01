@@ -3,13 +3,14 @@
 Este site foi criado com o objetivo principal de praticar boas práticas de desenvolvimento web, focando em HTML semântico e estilos em CSS.
 Atualmente, o projeto apresenta um layout minimalista inspirado na estética japonesa, com uma galeria em efeito sanfona. Versões futuras vão incluir melhorias na responsividade e técnicas mais avançadas de CSS e acessibilidade.
 
-🔗 Acesse o site aqui (https://taina-dias-s.github.io/Site-de-Fotografia-TOKI)
+
 ## ⚠️ Aviso de compatibilidade
 
 > Este site foi desenvolvido para visualização em **computadores**.  
 > Atualmente, **não possui responsividade** para dispositivos móveis.  
 > Recomendo abrir em telas maiores.
 
+🔗 Acesse o site aqui (https://taina-dias-s.github.io/Site-de-Fotografia-TOKI)
 
 ## 🛠️ Tecnologias usadas
 
